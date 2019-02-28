@@ -1,5 +1,5 @@
 import Vue from 'vue'
 import Ionic from '@ionic/vue';
-import '../ionic-variables.scss'
+import '../ionic-variables.css'
 Vue.use(Ionic);
 
