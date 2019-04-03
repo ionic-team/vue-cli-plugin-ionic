@@ -2,7 +2,7 @@ module.exports = (api, opts, rootOptions) => {
   const utils = require('./utils')(api);
 
   api.extendPackage({
-    dependencies: { '@ionic/vue': '0.0.1' }
+    dependencies: { '@ionic/vue': '0.0.4' }
   });
 
   api.injectImports(utils.getMain(), `import './plugins/ionic.js'`);
